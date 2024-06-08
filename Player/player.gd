@@ -11,6 +11,7 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 var health = 100
 var alive = true
+var gold = 0
 
 func _physics_process(delta):
 	# Add the gravity.
