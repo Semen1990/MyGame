@@ -2,7 +2,7 @@ extends Area2D
 
 
 
-
+#Респаун монут
 func _on_body_entered(body):
 	if body.name == "Player":
 		var tween = get_tree().create_tween()

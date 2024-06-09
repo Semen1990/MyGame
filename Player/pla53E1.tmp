@@ -783,7 +783,6 @@ sprite_frames = SubResource("SpriteFrames_aktgx")
 animation = &"slide"
 autoplay = "Idle"
 frame = 7
-frame_progress = 1.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -1)
